@@ -21,7 +21,7 @@ function obtenerLargoDelArray(array) {
 }
 
 
-function incrementarPorUno(array) {
+function incrementarPorUno(array){
   // "array" debe ser una matriz de enteros (int/integers)
   // Aumenta cada entero por 1
   // y devuelve el array
@@ -108,7 +108,7 @@ function multiplicarArgumentos() {
   if(arguments.length < 1) return 0;
   var total = 1;
   for(var i = 0; i < arguments.length; i++) {
-    total = total * arguments[i];
+    total = total*arguments[i];
   }
   return total;
 }
