@@ -81,15 +81,16 @@ function tienePropiedad(objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  return (objeto.hasOwnProperty(propiedad));
-}
-// if (objeto[propiedad]){
-//return true;
-//}else {
-//return false;
+  //return (objeto.hasOwnProperty(propiedad));
 //}
 //hasOwnProperty: devuelve un valor booleano que indica si el objeto tiene la propiedad especificada
 // como propiedad propia 
+if (objeto[propiedad]){
+return true;
+}else {
+return false;
+}
+}
 
 
 function verificarPassword(usuario, password) {
