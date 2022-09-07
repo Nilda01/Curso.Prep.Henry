@@ -1,0 +1,30 @@
+
+           .divClass{
+            color:coral;
+            text-align: center;
+           }
+            
+            img{
+                width: 400px;
+            }
+            #thirdDiv{
+                background-color: aqua;
+                width: 500px;
+                height: 600px;  
+                padding: 50px;
+                border: 5px solid black;
+                margin-left: auto;
+                margin-right: auto;
+ 
+            }
+             #spanId{
+                font-size: 18px;
+                text-align: center;
+                margin: 50px;
+                
+             }
+             html{
+                background-image: url('https://besthqwallpapers.com/Uploads/25-9-2020/141741/black-hexagons-4k-3d-art-creative-honeycomb.jpg');
+                
+            }
+            
